@@ -1,0 +1,550 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/game1-21/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53376
+Successfully changed project path to: /Users/game1-21/My project
+/Users/game1-21/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 103.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game1-21/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Renderer: AMD Radeon Pro 5300 OpenGL Engine
+Vendor:   ATI Technologies Inc.
+Version:  4.1 ATI-4.2.15
+GLES:     0
+ GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_bounds_test GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable G
+L_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle -66758144
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56333
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001398 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 105.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.559 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 106.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.5 MB.
+System memory in use after: 234.6 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4303.
+Total: 2.349646 ms (FindLiveObjects: 0.273812 ms CreateObjectMapping: 0.146077 ms MarkObjects: 1.840609 ms  DeleteObjects: 0.088492 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/2DGamekit/Scenes/Zone5.unity
+  artifactKey: Guid(960b12f881940d84983273421bebc695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scenes/Zone5.unity using Guid(960b12f881940d84983273421bebc695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b62425c2642bdb0206c331254a66e6') in 0.010963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/2DGamekit/Scenes/Zone1.unity
+  artifactKey: Guid(a94cb8f134bf81349ad016c79b629e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scenes/Zone1.unity using Guid(a94cb8f134bf81349ad016c79b629e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7471b38c775238bcfbc0453345fd7e4b') in 0.001160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.889046 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_000.png
+  artifactKey: Guid(c0c34b3ce5f3bad4a92ae2ace64ea54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_000.png using Guid(c0c34b3ce5f3bad4a92ae2ace64ea54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717a791a6c7dfac50709a05fb696c4ac') in 0.929196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_047.png
+  artifactKey: Guid(4bfe2265e55eabc4e8661f4b53459a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_047.png using Guid(4bfe2265e55eabc4e8661f4b53459a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c571bc626d0a126977bb7fa2478dce52') in 0.008979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_045.png
+  artifactKey: Guid(6a9d269c995597949912371419d0e37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_045.png using Guid(6a9d269c995597949912371419d0e37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe23d79a175b113aa338ee024d0a8995') in 0.008805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_038.png
+  artifactKey: Guid(d12400b8f60eb534489d29d74595c74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_038.png using Guid(d12400b8f60eb534489d29d74595c74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d06a0bd9d83b909b2d7aed560b0b990') in 0.016251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_027.png
+  artifactKey: Guid(641c1968aa0040a43a5a56dcb15c37c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_027.png using Guid(641c1968aa0040a43a5a56dcb15c37c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceea76259337076a7ab65bc3777ccf8d') in 0.009301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_022.png
+  artifactKey: Guid(88e8dc18ca587db4dbf5748520fbc374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_022.png using Guid(88e8dc18ca587db4dbf5748520fbc374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ffd691be086fb878921f0e465580b5') in 0.009201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_012.png
+  artifactKey: Guid(89d60a14446e0e64d9fbc78d4f56f0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_012.png using Guid(89d60a14446e0e64d9fbc78d4f56f0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5c892a4214b2a34821839327911d59') in 0.009122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_043.png
+  artifactKey: Guid(82a1256975469ad449c19d749f79d183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_043.png using Guid(82a1256975469ad449c19d749f79d183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d75dc716520caed7ec94c6a7d478bd4') in 0.008954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_052.png
+  artifactKey: Guid(92afb8e693ef0bd479a9fbcca9cd4407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_052.png using Guid(92afb8e693ef0bd479a9fbcca9cd4407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce980afa5c5b6883b2b72143ad956a3') in 0.009437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortLarge01.ogg
+  artifactKey: Guid(8d76c4a7797e3994eb5a27a04876b1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortLarge01.ogg using Guid(8d76c4a7797e3994eb5a27a04876b1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a190d205fbcacaab6704301390cca6') in 0.321146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_020.png
+  artifactKey: Guid(d8066b3064c94ec418e624a9d42a7e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_020.png using Guid(d8066b3064c94ec418e624a9d42a7e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbefcb1b7115960d2104aa896141536') in 0.011672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_050.png
+  artifactKey: Guid(848f66f6aef71f5439b3f54a71fdfbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_050.png using Guid(848f66f6aef71f5439b3f54a71fdfbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97dc9436f0013b90f2530f721715a74') in 0.015551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001154 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_008.png
+  artifactKey: Guid(0aa4758e6a5fb5548b825f9b9f30d7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_008.png using Guid(0aa4758e6a5fb5548b825f9b9f30d7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb241de82062f7e10b708f1d608d85b6') in 0.015354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_037.png
+  artifactKey: Guid(4db7de89bec7d9241b6f8f9a9149ea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_037.png using Guid(4db7de89bec7d9241b6f8f9a9149ea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9045eee71f541d7f15bd6940346a0995') in 0.014417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_016.png
+  artifactKey: Guid(a2a0016c152367442b171d0cd3dee9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_016.png using Guid(a2a0016c152367442b171d0cd3dee9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9670d0d4bcb752b70c611858075b67') in 0.013665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_011.png
+  artifactKey: Guid(a5bd89109aa6b2040899eb517d4ff269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_011.png using Guid(a5bd89109aa6b2040899eb517d4ff269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb309a3b9e0da3bc928934e2599e2c8') in 0.009796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_005.png
+  artifactKey: Guid(411cf84ac65191c4bb59a562f6ff00d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_005.png using Guid(411cf84ac65191c4bb59a562f6ff00d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72603cd3f80368aed772149ee6f79b28') in 0.009460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/2DGamekit/Art/Sprites/VFX/Environment/WaterNewHeight.png
+  artifactKey: Guid(4a8d4bb7c7c1895479b706a87b990707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/VFX/Environment/WaterNewHeight.png using Guid(4a8d4bb7c7c1895479b706a87b990707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc3eed048eb110725849f926d055be0') in 0.017039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_054.png
+  artifactKey: Guid(94506df6af9336d498bc4b125fec2bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_054.png using Guid(94506df6af9336d498bc4b125fec2bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87aab0fa82570754ea0c8a7c48958c14') in 0.009513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_021.png
+  artifactKey: Guid(338b7ab050147cd4ba8dae8c5b192d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_021.png using Guid(338b7ab050147cd4ba8dae8c5b192d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd5782f880a2dc13bdd6ec0708b1a37') in 0.009434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_039.png
+  artifactKey: Guid(37b0ac0507a75e74b8463a66400768b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_039.png using Guid(37b0ac0507a75e74b8463a66400768b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1923b36469c85666e6c3c3f1eafadd') in 0.009460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_056.png
+  artifactKey: Guid(9055a2f863bb219428f97595a861d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_056.png using Guid(9055a2f863bb219428f97595a861d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899300c441953266be2f4d7a58154701') in 0.009866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_001.png
+  artifactKey: Guid(6ca890c0d46aed24b9dc2b295bc00f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_001.png using Guid(6ca890c0d46aed24b9dc2b295bc00f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caa72836ed4230810092cae9189fd7a') in 0.009403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_004.png
+  artifactKey: Guid(68451d277d2abba46a8ce6bf03ca7e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_004.png using Guid(68451d277d2abba46a8ce6bf03ca7e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc86844e5a711c0113736c1512e8070') in 0.010846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_049.png
+  artifactKey: Guid(c7b60a04d72144e4abc50f83229c24b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_049.png using Guid(c7b60a04d72144e4abc50f83229c24b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58adb4aa834f010e6b0683d38f11d928') in 0.009558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_034.png
+  artifactKey: Guid(e8dea0af68b70944d9a787becfc0689a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_034.png using Guid(e8dea0af68b70944d9a787becfc0689a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab974b2ec0db047132f61979e24f09d') in 0.010057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_009.png
+  artifactKey: Guid(2ddda87f253edea40a6f886160952413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_009.png using Guid(2ddda87f253edea40a6f886160952413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b2671bbf465448697ca0edafc27260') in 0.010306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortLarge02.ogg
+  artifactKey: Guid(6c438cd8f403270478a157682bf24456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortLarge02.ogg using Guid(6c438cd8f403270478a157682bf24456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222e12a26553671b9101e0b66cd939c2') in 0.006480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_053.png
+  artifactKey: Guid(951eaffdc3e0af047968b7ab9cd39b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_053.png using Guid(951eaffdc3e0af047968b7ab9cd39b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf81cdb3f2d75771e2da2d1037141239') in 0.009510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_013.png
+  artifactKey: Guid(c526eeae045772a4d864b60d1a1d5296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_013.png using Guid(c526eeae045772a4d864b60d1a1d5296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d862e718de6ff4d7760ea10b8ebb463') in 0.009756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_041.png
+  artifactKey: Guid(f6f6b1436c8ac2f40b4772ae71e66616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_041.png using Guid(f6f6b1436c8ac2f40b4772ae71e66616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb70d0cb702d0cea6d58931689bd2f') in 0.009419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_046.png
+  artifactKey: Guid(00e06269702d7004eb9a7c0e6bd22426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_046.png using Guid(00e06269702d7004eb9a7c0e6bd22426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb35300cfd53c8a235031720774563c') in 0.013496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortMedium01.ogg
+  artifactKey: Guid(d50f2e0626e662041aa8a2ff5f8ebcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortMedium01.ogg using Guid(d50f2e0626e662041aa8a2ff5f8ebcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66463d11ec228acbda151e52d1e1cc1d') in 0.009417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_030.png
+  artifactKey: Guid(0eb4fabd70cb42c4e853c56d1227a3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_030.png using Guid(0eb4fabd70cb42c4e853c56d1227a3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886cd6cd1902cd3ef0ed55674a20cd7f') in 0.014495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_032.png
+  artifactKey: Guid(a94191f83905200448f763e26e38b1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_032.png using Guid(a94191f83905200448f763e26e38b1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5accf20c82fb1fdd23a5a5971311b1') in 0.013084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_017.png
+  artifactKey: Guid(82e2dad5538a7b94fb7d4a2ec5892fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_017.png using Guid(82e2dad5538a7b94fb7d4a2ec5892fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6e7b3e5b50b17de4830e2f370f1851') in 0.012426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_055.png
+  artifactKey: Guid(667322eabce35e54782b9a44a073a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_055.png using Guid(667322eabce35e54782b9a44a073a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cef8bf809b62028ed675505c38dc01') in 0.011399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_002.png
+  artifactKey: Guid(e025cbdb4e2ba0c4da395d1f388932dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_002.png using Guid(e025cbdb4e2ba0c4da395d1f388932dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673e6cbd3a7b2a8a48a0365f28603ba1') in 0.009561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_048.png
+  artifactKey: Guid(4404ac2103491534c9e5846328919d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_048.png using Guid(4404ac2103491534c9e5846328919d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b994ca1e61f80cf3f395e4e89c17ec01') in 0.009791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_007.png
+  artifactKey: Guid(430a778a5e873dd47b839ef9c835fe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_007.png using Guid(430a778a5e873dd47b839ef9c835fe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c0a01a0276a317d913703b99ee31db') in 0.011024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_010.png
+  artifactKey: Guid(b21a4c07951e2a741ab6e18f67c5cd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_010.png using Guid(b21a4c07951e2a741ab6e18f67c5cd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909a02c89ae8c062fb4ffdc184dd9583') in 0.008791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_015.png
+  artifactKey: Guid(ff6abd3e3a894514cb908c7048a19d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_015.png using Guid(ff6abd3e3a894514cb908c7048a19d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449cdaac3917f5178e77e1d2220f123f') in 0.010877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_014.png
+  artifactKey: Guid(150834209dce0f04fbc80ba1c047862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_014.png using Guid(150834209dce0f04fbc80ba1c047862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ed73557c6a4c653ea8aacefa7353c9') in 0.009606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_023.png
+  artifactKey: Guid(ec512da32fc72e341aaf998346dd918d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_023.png using Guid(ec512da32fc72e341aaf998346dd918d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47e9af09099f522e4227b8ed93041e8') in 0.009477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_031.png
+  artifactKey: Guid(e8917069f3e34da42b21d686fabc7edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_031.png using Guid(e8917069f3e34da42b21d686fabc7edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc20dd96d9f97709705b8c40a6967de') in 0.009633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_036.png
+  artifactKey: Guid(13da4665845ba7048a430c77c0c2e710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_036.png using Guid(13da4665845ba7048a430c77c0c2e710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5af8a3bcf534ed771ba2bbb1c6be867') in 0.009379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_033.png
+  artifactKey: Guid(93e3d0ece463bdd4f8de3a5e13640f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_033.png using Guid(93e3d0ece463bdd4f8de3a5e13640f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0762d55e3166b75915bf5e8da01a30eb') in 0.009139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_040.png
+  artifactKey: Guid(b7f0bbb0377ad59428edfb2ad7bb9c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_040.png using Guid(b7f0bbb0377ad59428edfb2ad7bb9c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0301a9bd7b54bdc3d13243e354dd6b93') in 0.010165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_029.png
+  artifactKey: Guid(ec2fd10884c649646bd87eeb6da8fbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_029.png using Guid(ec2fd10884c649646bd87eeb6da8fbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb061d4e4d9020ddf9b0e1a30eba7775') in 0.009410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_019.png
+  artifactKey: Guid(970d88aa5a19ea34f966f654dba3c40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_019.png using Guid(970d88aa5a19ea34f966f654dba3c40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf1cbbaa2a7e1a0f7b9936e83454150') in 0.009811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/EllenCutsceneAtlas.spriteatlas
+  artifactKey: Guid(86edb2edc926cbc468998cd95e71e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/EllenCutsceneAtlas.spriteatlas using Guid(86edb2edc926cbc468998cd95e71e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3103870dc43d65e049c64e47dc0004e') in 1.361275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_051.png
+  artifactKey: Guid(4b8d7ee8c014eca44bac43ebc62ff54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_051.png using Guid(4b8d7ee8c014eca44bac43ebc62ff54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f480265359564e37c2d3371699b8c30') in 0.019184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_042.png
+  artifactKey: Guid(1df4990374184a74881ac6025bf44892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_042.png using Guid(1df4990374184a74881ac6025bf44892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017be51ccd236ddca6dcb54ee94191bd') in 0.008720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_035.png
+  artifactKey: Guid(fc020019f252cdb46a61d9796ded3e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_035.png using Guid(fc020019f252cdb46a61d9796ded3e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53afcc1e3ad905d5e67a820fbc71f3c8') in 0.008120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_044.png
+  artifactKey: Guid(bf215208f75c7b942b1605483667f8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_044.png using Guid(bf215208f75c7b942b1605483667f8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2e5e1dd63cf5c691fbe73160c3318f') in 0.008675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_026.png
+  artifactKey: Guid(240b042a2678c13429cb0a31094f929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_026.png using Guid(240b042a2678c13429cb0a31094f929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d1d800396cd93059bf679280556631') in 0.008557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_003.png
+  artifactKey: Guid(f4d973fde270bf646989674f9883ff37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_003.png using Guid(f4d973fde270bf646989674f9883ff37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b4208d66dd90d1cb67acb154b2e6c2') in 0.009189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_024.png
+  artifactKey: Guid(ffc84872fb897ac48ba785abe986ce5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_024.png using Guid(ffc84872fb897ac48ba785abe986ce5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95c2c8885b5f33da54a2056412355c8') in 0.008621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_028.png
+  artifactKey: Guid(f2f48b5c6d23a094ab94c8c2a222706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_028.png using Guid(f2f48b5c6d23a094ab94c8c2a222706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32078a5c5c1cf4f66d0e0b4be8816faa') in 0.008564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_018.png
+  artifactKey: Guid(ac55bcb8f5e1e714e8dbc94eaa8b2476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_018.png using Guid(ac55bcb8f5e1e714e8dbc94eaa8b2476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad55dfabe62da2e3ed39fe4ba6d0f6e') in 0.009449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_006.png
+  artifactKey: Guid(febb0f6fef5a4a047a1acf99e84d9fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_006.png using Guid(febb0f6fef5a4a047a1acf99e84d9fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3084d8bfd923cbac3c3f1162b5895ee0') in 0.008972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_025.png
+  artifactKey: Guid(8823d9880fbc90642a4778e42a762580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/CutsceneAnimation/Ellen_CutscenePortrait_025.png using Guid(8823d9880fbc90642a4778e42a762580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdf25b5360b73a4ee35a9a2db8178f8') in 0.009563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.000776 seconds.
+  path: Assets/2DGamekit/Scenes/NewScene.unity
+  artifactKey: Guid(f3c9a296cbd324981b488437eff0de8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scenes/NewScene.unity using Guid(f3c9a296cbd324981b488437eff0de8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf47b96d26286e802f9ee81ec831351') in 0.001395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.261176 seconds.
+  path: Assets/2DGamekit/Scenes/Zone1.unity
+  artifactKey: Guid(a94cb8f134bf81349ad016c79b629e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scenes/Zone1.unity using Guid(a94cb8f134bf81349ad016c79b629e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2a92a4903e8f18c6e8e10179ee1252') in 0.005431 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.157 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3847 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 280.4 MB.
+System memory in use after: 280.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5190.
+Total: 2.724716 ms (FindLiveObjects: 0.337478 ms CreateObjectMapping: 0.161494 ms MarkObjects: 2.133978 ms  DeleteObjects: 0.090940 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 892.077284 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Materials/UndergroundRoots.mat
+  artifactKey: Guid(bb1e3511bc1ba4149b4da0aecbbab3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Materials/UndergroundRoots.mat using Guid(bb1e3511bc1ba4149b4da0aecbbab3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3d62306936ec32ebb8f6e9e5982f94') in 0.382643 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004555 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3789 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 283.0 MB.
+System memory in use after: 283.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5228.
+Total: 2.504630 ms (FindLiveObjects: 0.339858 ms CreateObjectMapping: 0.161713 ms MarkObjects: 1.931931 ms  DeleteObjects: 0.070443 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.118 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3789 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 283.3 MB.
+System memory in use after: 283.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5232.
+Total: 3.035884 ms (FindLiveObjects: 0.453711 ms CreateObjectMapping: 0.170523 ms MarkObjects: 2.331373 ms  DeleteObjects: 0.079352 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3789 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 283.5 MB.
+System memory in use after: 283.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5236.
+Total: 2.542203 ms (FindLiveObjects: 0.342923 ms CreateObjectMapping: 0.173174 ms MarkObjects: 1.954217 ms  DeleteObjects: 0.071195 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,0 +1,262 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/game1-21/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55179
+Successfully changed project path to: /Users/game1-21/My project
+/Users/game1-21/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 107.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game1-21/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Renderer: AMD Radeon Pro 5300 OpenGL Engine
+Vendor:   ATI Technologies Inc.
+Version:  4.1 ATI-4.2.15
+GLES:     0
+ GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_bounds_test GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable G
+L_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle 67503104
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56479
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000587 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 99.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.310 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001723 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 102.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.8 MB.
+System memory in use after: 234.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4303.
+Total: 2.484573 ms (FindLiveObjects: 0.271396 ms CreateObjectMapping: 0.177204 ms MarkObjects: 1.840769 ms  DeleteObjects: 0.194459 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/2DGamekit/Audio/UI/MenuButton01.ogg
+  artifactKey: Guid(df6d1af64fdebb04d80a54b27b720509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/UI/MenuButton01.ogg using Guid(df6d1af64fdebb04d80a54b27b720509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce66ed25436c63bcf0ee71b39e072e2') in 0.413470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/2DGamekit/Audio/UI/MenuButtonBack.ogg
+  artifactKey: Guid(88ac5fcaaded1224484b71c9811f8bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/UI/MenuButtonBack.ogg using Guid(88ac5fcaaded1224484b71c9811f8bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fba04b6f7cb1a0ff03d8053fe3d60b') in 0.006025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2DGamekit/Audio/UI/MenuButtonConfirm.ogg
+  artifactKey: Guid(68c65aec95671b549be3b900cc305b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/UI/MenuButtonConfirm.ogg using Guid(68c65aec95671b549be3b900cc305b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214082bbf31e99f61e88f10be8b31b5b') in 0.005890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/2DGamekit/Audio/UI/MenuButton02.ogg
+  artifactKey: Guid(9a6c7b4eb436659439202963a40d40d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/UI/MenuButton02.ogg using Guid(9a6c7b4eb436659439202963a40d40d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc8a7a4e8426f1ff1b3f8ac689717b1') in 0.005591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/2DGamekit/Audio/UI/MenuButtonStart.ogg
+  artifactKey: Guid(a4dc23583fb1dc84a89049f88b06efe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/UI/MenuButtonStart.ogg using Guid(a4dc23583fb1dc84a89049f88b06efe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10de18406aea82a5b4211f84dabeac82') in 0.012579 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009152 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.433 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3789 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.8 MB.
+System memory in use after: 241.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4316.
+Total: 7.251592 ms (FindLiveObjects: 1.364518 ms CreateObjectMapping: 0.950386 ms MarkObjects: 4.812513 ms  DeleteObjects: 0.122418 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 466.734554 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Utilities/BlankNormal.png
+  artifactKey: Guid(48e830063f6751148b2a09a61aebd768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Utilities/BlankNormal.png using Guid(48e830063f6751148b2a09a61aebd768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1457e4b7000935c4a72af97083d61d') in 0.890344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Utilities/BlankSprite.png
+  artifactKey: Guid(f7b6513722649314d945ddac9e52b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Utilities/BlankSprite.png using Guid(f7b6513722649314d945ddac9e52b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fa27bf6b7c1246ad946efcb80e4440') in 0.029546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.020134 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00007.png
+  artifactKey: Guid(575f490323d76254ab8d5d4cd472a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00007.png using Guid(575f490323d76254ab8d5d4cd472a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea95a6d3d25fdaddbb69f18832ffd5ae') in 0.020389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/2DGamekit/Art/Sprites/VFX/Interactables/RockChunks.tif
+  artifactKey: Guid(acf8e7c6211d47045a0288178dcac305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/VFX/Interactables/RockChunks.tif using Guid(acf8e7c6211d47045a0288178dcac305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5231017edeefba0159b618660ebcf6') in 0.768698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00009.png
+  artifactKey: Guid(0adb3b85a77225b42823314ce0caedd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00009.png using Guid(0adb3b85a77225b42823314ce0caedd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce106bd3c53c06d15a1efe412367fd58') in 0.010745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00013.png
+  artifactKey: Guid(1b0ea6ee3d93339468688584fa8f3bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00013.png using Guid(1b0ea6ee3d93339468688584fa8f3bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf299d9d4b17ffb8f7642312c35a85d') in 0.010343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/2DGamekit/Art/Sprites/VFX/Interactables/RockChunks.png
+  artifactKey: Guid(41ee6cd071cd1574d96bfdea097a48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/VFX/Interactables/RockChunks.png using Guid(41ee6cd071cd1574d96bfdea097a48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398490d67ea7864735b88195ec39ab2b') in 0.015661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00015.png
+  artifactKey: Guid(8def3b866cd238f4a928439e0a5a8907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00015.png using Guid(8def3b866cd238f4a928439e0a5a8907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec974a3c16e608a6142abaac41a60b2') in 0.010879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00011.png
+  artifactKey: Guid(f645b6da0a4688d4288e29bcffabc941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00011.png using Guid(f645b6da0a4688d4288e29bcffabc941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6f5c8e74ca47fb28ecd50fa1806b4c') in 0.010663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/2DGamekit/Art/Materials/VFX/Ellen/EllenHurt.mat
+  artifactKey: Guid(85ca70dfb4d675143b31965eff3bf3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/VFX/Ellen/EllenHurt.mat using Guid(85ca70dfb4d675143b31965eff3bf3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49d71724ecf9b1e7d0d3fc2fe86f30f') in 0.929584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.575192 seconds.
+  path: Assets/2DGamekit/Art/Animations/AnimationClips/VFX/Ellen/EllenHurtEfect.anim
+  artifactKey: Guid(5699d7d2abb1dd64786debdff09e9b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Animations/AnimationClips/VFX/Ellen/EllenHurtEfect.anim using Guid(5699d7d2abb1dd64786debdff09e9b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edad6dcf82cc1ae11f6673618523a51') in 0.257926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.261619 seconds.
+  path: Assets/2DGamekit/Art/Animations/AnimationClips/Ellen/Ellen_Hurt.anim
+  artifactKey: Guid(6c38d4e45a244584686f7a9563fa36df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Animations/AnimationClips/Ellen/Ellen_Hurt.anim using Guid(6c38d4e45a244584686f7a9563fa36df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1341ab20ac9634bb40a4eefa9a548017') in 0.003622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.026715 seconds.
+  path: Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/HurtSMB.cs
+  artifactKey: Guid(788fe546ad9bdbb45a6cc099f9f20e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/HurtSMB.cs using Guid(788fe546ad9bdbb45a6cc099f9f20e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3133f7ef8ab38b3903d2ff19882316a0') in 2.449691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt
+  artifactKey: Guid(23fabdc2f94d518419df7953889c59b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt using Guid(23fabdc2f94d518419df7953889c59b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a00279f206a8386de32b73992092344') in 0.001260 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002249 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 277.2 MB.
+System memory in use after: 277.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4498.
+Total: 3.292899 ms (FindLiveObjects: 0.400453 ms CreateObjectMapping: 0.198310 ms MarkObjects: 2.602909 ms  DeleteObjects: 0.090366 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001807 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3789 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 277.1 MB.
+System memory in use after: 277.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4502.
+Total: 2.549506 ms (FindLiveObjects: 0.293550 ms CreateObjectMapping: 0.169677 ms MarkObjects: 2.000300 ms  DeleteObjects: 0.085277 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3789 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 277.3 MB.
+System memory in use after: 277.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4506.
+Total: 2.385089 ms (FindLiveObjects: 0.324071 ms CreateObjectMapping: 0.165265 ms MarkObjects: 1.804674 ms  DeleteObjects: 0.090297 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

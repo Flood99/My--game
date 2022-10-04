@@ -56,33 +56,33 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/2DGamekit/Scripts/Localization/Editor/TranslatedPhrasesEditor.cs" />
-    <Compile Include="Assets/2DGamekit/Scripts/Timeline/Editor/DirectorTriggerEditor.cs" />
-    <Compile Include="Assets/2DGamekit/Scripts/Localization/Editor/TranslatorEditor.cs" />
-    <Compile Include="Assets/2DGamekit/Scripts/Character/Editor/PlayerCharacterEditor.cs" />
-    <Compile Include="Assets/2DGamekit/Scripts/SceneManagement/Editor/SceneNameDrawer.cs" />
-    <Compile Include="Assets/2DGamekit/Utilities/Editor/NewSceneCreator.cs" />
-    <Compile Include="Assets/2DGamekit/Scripts/Objects/Editor/PressurePadEditor.cs" />
-    <Compile Include="Assets/2DGamekit/Utilities/Editor/RuleTileEditor.cs" />
-    <Compile Include="Assets/2DGamekit/Scripts/Localization/Editor/PhraseDrawer.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/Editor/DamagerEditor.cs" />
-    <Compile Include="Assets/2DGamekit/Scripts/Objects/Editor/MovingPlatformPreview.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/LightControl/Editor/LightControlDrawer.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/Editor/TimelinePlayableWizard.cs" />
-    <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/TimeDilation/Editor/TimeDilationDrawer.cs" />
-    <Compile Include="Assets/2DGamekit/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/ScreenFader/Editor/ScreenFaderDrawer.cs" />
-    <Compile Include="Assets/2DGamekit/Scripts/SceneManagement/Editor/TransitionStartEditor.cs" />
-    <Compile Include="Assets/2DGamekit/Scripts/Objects/Editor/MovingPlatformEditor.cs" />
+    <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/Editor/TransformTweenDrawer.cs" />
+    <Compile Include="Assets/2DGamekit/Scripts/Character/Editor/PlayerCharacterEditor.cs" />
+    <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/TimeDilation/Editor/TimeDilationDrawer.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/SceneManagement/Editor/DataPersisterEditor.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/TextSwitcher/Editor/TextSwitcherDrawer.cs" />
-    <Compile Include="Assets/2DGamekit/Scripts/SceneManagement/Editor/ParameterSetterDrawer.cs" />
-    <Compile Include="Assets/2DGamekit/Scripts/Timeline/ScrollingText/Editor/ScrollingTextDrawer.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/Editor/PlayerInputEditor.cs" />
-    <Compile Include="Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/Editor/TransformTweenDrawer.cs" />
+    <Compile Include="Assets/2DGamekit/Scripts/SceneManagement/Editor/SceneNameDrawer.cs" />
+    <Compile Include="Assets/2DGamekit/Utilities/Editor/NewSceneCreator.cs" />
+    <Compile Include="Assets/2DGamekit/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
+    <Compile Include="Assets/2DGamekit/Scripts/SceneManagement/Editor/ParameterSetterDrawer.cs" />
+    <Compile Include="Assets/2DGamekit/Utilities/Editor/RuleTileEditor.cs" />
+    <Compile Include="Assets/2DGamekit/Scripts/Objects/Editor/MovingPlatformPreview.cs" />
+    <Compile Include="Assets/2DGamekit/Scripts/SceneManagement/Editor/TransitionStartEditor.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/Editor/CharacterStateSetterEditor.cs" />
     <Compile Include="Assets/2DGamekit/Scripts/Character/Editor/DamageableEditor.cs" />
     <Compile Include="Assets/2DGamekit/Utilities/Editor/BTDebug.cs" />
+    <Compile Include="Assets/2DGamekit/Scripts/Timeline/Editor/DirectorTriggerEditor.cs" />
+    <Compile Include="Assets/2DGamekit/Scripts/Localization/Editor/TranslatedPhrasesEditor.cs" />
+    <Compile Include="Assets/2DGamekit/Scripts/Objects/Editor/PressurePadEditor.cs" />
+    <Compile Include="Assets/2DGamekit/Scripts/Objects/Editor/MovingPlatformEditor.cs" />
+    <Compile Include="Assets/2DGamekit/Scripts/Timeline/ScrollingText/Editor/ScrollingTextDrawer.cs" />
+    <Compile Include="Assets/2DGamekit/Scripts/Localization/Editor/TranslatorEditor.cs" />
+    <Compile Include="Assets/2DGamekit/Scripts/Localization/Editor/PhraseDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -742,8 +742,8 @@
     <Reference Include="VSSettingsProvider">
       <HintPath>Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -757,6 +757,12 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
@@ -765,6 +771,18 @@
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
@@ -778,6 +796,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
@@ -787,6 +808,9 @@
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
@@ -795,30 +819,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

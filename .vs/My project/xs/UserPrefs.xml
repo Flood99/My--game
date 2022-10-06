@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{32C3BDE6-E125-3128-82C1-25D0441455A3}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/2DGamekit/Scripts/Objects/Platforms/MovingPlatform.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/2DGamekit/Scripts/Core/Checkpoint.cs">
     <Files>
       <File FileName="Assets/bo.cs" Line="17" Column="7" />
       <File FileName="Assets/2DGamekit/Scripts/Objects/Platforms/MovingPlatform.cs" Line="190" Column="1" />
+      <File FileName="Assets/2DGamekit/Scripts/Core/Checkpoint.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,6 +12,7 @@
             <Node name="Assets" expanded="True" selected="True">
               <Node name="2DGamekit" expanded="True">
                 <Node name="Scripts" expanded="True">
+                  <Node name="Core" expanded="True" />
                   <Node name="Objects" expanded="True">
                     <Node name="Platforms" expanded="True" />
                   </Node>
@@ -24,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="334c3a68-52e5-48fb-bdcc-db284bb0961d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a24a442d-60ab-4832-9b47-8a34f48c8032" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
